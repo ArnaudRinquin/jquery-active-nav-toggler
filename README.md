@@ -4,6 +4,8 @@ jquery-active-nav-toggler
 This very simple plugin helps setting an `active` class to your
 navigation components to the last clicked element.
 
+[demo](http://arnaudrinquin.github.io/jquery-active-nav-toggler/)
+
 # Usage
 ## Basic (boostrap compliant)
 
