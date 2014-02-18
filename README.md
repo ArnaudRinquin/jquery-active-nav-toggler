@@ -39,7 +39,6 @@ $(".container").activeNavToggler({
 Insert `dist/jquery.active-nav-toggler.js` (or:
 `dist/jquery.active-nav-toggler.min.js`) to your project.
 
-Alternatively, and when this plugin will be published, you'll be able to use 
-bower: 
+Alternatively, you'll can to use bower: 
 
 `bower install jquery-active-nav-toggler`
