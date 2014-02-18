@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Boilerplate</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="../dist/jquery.active-nav-toggler.js"></script>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="demo.css">
+  </head>
+  <body>
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Messages</a></li>
+    </ul>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <ul>
+        <li>1</li>
+        <li class="active">2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <div class="container">
+        <div class="child">asd</div>
+        <div class="child">asd</div>
+        <div class="child">asd</div>
+        <div class="child">asd</div>
+        <div class="child">asd</div>
+        <div class="child">asd</div>
+    </div>
+    <button id="disabledButton">Disable above container</button>
+    <script>
+      $(function() {
+        $("ul.nav").activeNavToggler().append($('<li><a href="#">added element</a></li>'));
+
+        $("ul").activeNavToggler();
+
+        $(".container").activeNavToggler({
+            childSelector: '.child',
+            activeClass: 'foobar'
+        });
+
+        $('#disabledButton').click(function () {
+            $(".container").activeNavToggler({
+                action: 'disable'
+            });
+        });
+      });
+    </script>
+  </body>
+</html>

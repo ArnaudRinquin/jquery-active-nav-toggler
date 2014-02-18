@@ -1,0 +1,35 @@
+{
+	"name": "jquery-active-nav-toggler",
+	"title": "jQuery Active nav toggler",
+	"description": "Toggle active class on navigation components",
+	"keywords": [
+		"jquery",
+		"plugins"
+	],
+	"version": "0.0.0",
+	"author": {
+		"name": "Arnaud Rinquin",
+		"email": "rinquin.arnaud@gmail.com",
+		"url": "https://github.com/ArnaudRinquin"
+	},
+	"maintainers": [
+		{
+			"name": "Arnaud Rinquin",
+			"email": "rinquin.arnaud@gmail.com",
+			"url": "https://github.com/ArnaudRinquin"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://opensource.org/licenses/MIT"
+		}
+	],
+	"bugs": "https://github.com/ArnaudRinquin/jquery-active-nav-toggler/issues",
+	"homepage": "https://github.com/ArnaudRinquin/jquery-active-nav-toggler",
+	"docs": "https://github.com/ArnaudRinquin/jquery-active-nav-toggler#readme",
+	"download": "https://github.com/ArnaudRinquin/jquery-active-nav-toggler/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}

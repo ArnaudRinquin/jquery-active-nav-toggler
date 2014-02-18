@@ -1,0 +1,16 @@
+{
+	"name": "jquery-active-nav-toggler",
+	"version": "0.0.0",
+	"homepage": "https://github.com/ArnaudRinquin/jquery-active-nav-toggler",
+	"authors": [
+		"Arnaud Rinquin <rinquin.arnaud@gmail.com>"
+	],
+	"description": "Automatically toggle `active` class on navigation components.",
+	"main": "dist/jquery.active-nav-toggler.js",
+	"keywords": [
+		"jquery",
+		"plugin",
+		"jquery-plugin"
+	],
+	"license": "MIT"
+}
